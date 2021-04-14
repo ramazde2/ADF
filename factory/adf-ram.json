@@ -1,0 +1,9 @@
+{
+	"name": "adf-ram",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abea5249-e9b7-4325-9fa1-e849de2fbac9",
+		"tenantId": "165dd19b-74eb-4dc1-9ffe-fb7b2bd6205c"
+	}
+}

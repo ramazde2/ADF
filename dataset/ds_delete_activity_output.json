@@ -1,0 +1,19 @@
+{
+	"name": "ds_delete_activity_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azblobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "data"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
